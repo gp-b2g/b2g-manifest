@@ -28,7 +28,7 @@
   <project name="platform/development" path="development" remote="QRD" revision="ics_master_qrd_101"/>
   <project name="device/common" path="device/common" remote="QRD" revision="ics_master_qrd_101"/>
   <project name="device/sample" path="device/sample" remote="QRD" revision="ics_master_qrd_101"/>
-  <project path="external/apriori" name="platform_external_apriori" remote="b2g" revision="v1-train"/>
+  <project path="external/apriori" name="platform_external_apriori" remote="b2g" revision="master"/>
   <project name="platform/external/apache-http" path="external/apache-http"/>
   <project name="platform/external/bluetooth/bluez" path="external/bluetooth/bluez" remote="QRD" revision="ics_master_qrd_101"/>
   <project name="platform/external/bluetooth/glib" path="external/bluetooth/glib"/>
@@ -38,8 +38,8 @@
   <project name="platform/external/dbus" path="external/dbus"/>
   <project name="platform/external/dhcpcd" path="external/dhcpcd"/>
   <project name="platform/external/dnsmasq" path="external/dnsmasq" remote="caf" revision="refs/tags/AU_LINUX_ANDROID_JB_2.2.04.01.02.14.080"/>
-  <project path="external/elfcopy" name="platform_external_elfcopy" remote="b2g" revision="v1-train"/>
-  <project path="external/elfutils" name="platform_external_elfutils" remote="b2g" revision="v1-train"/>
+  <project path="external/elfcopy" name="platform_external_elfcopy" remote="b2g" revision="master"/>
+  <project path="external/elfutils" name="platform_external_elfutils" remote="b2g" revision="master"/>
   <project name="platform/external/e2fsprogs" path="external/e2fsprogs"/>
   <project name="platform/external/expat" path="external/expat"/>
   <project name="platform/external/fdlibm" path="external/fdlibm"/>
@@ -61,11 +61,11 @@
   <project name="platform/external/libvpx" path="external/libvpx"/>
   <project name="platform/external/llvm" path="external/llvm"/>
   <project name="platform/external/mksh" path="external/mksh"/>
-  <project name="platform_external_opensans" path="external/opensans" remote="b2g" revision="v1-train"/>
+  <project name="platform_external_opensans" path="external/opensans" remote="b2g" revision="master"/>
   <project name="platform/external/openssl" path="external/openssl"/>
   <project name="platform/external/protobuf" path="external/protobuf" remote="caf" revision="refs/tags/AU_LINUX_ANDROID_JB_2.2.04.01.02.14.080"/>
   <project name="platform/external/safe-iop" path="external/safe-iop" remote="caf" revision="refs/tags/AU_LINUX_ANDROID_JB_2.2.04.01.02.14.080"/>
-  <project name="screencap-gonk" path="external/screencap-gonk" remote="b2g" revision="v1-train"/>
+  <project name="screencap-gonk" path="external/screencap-gonk" remote="b2g" revision="master"/>
   <project name="platform/external/skia" path="external/skia"/>
   <project name="platform/external/sonivox" path="external/sonivox"/>
   <project name="platform/external/speex" path="external/speex" remote="caf" revision="refs/tags/AU_LINUX_ANDROID_JB_2.2.04.01.02.14.080"/>
@@ -75,7 +75,7 @@
   <project name="platform/external/tagsoup" path="external/tagsoup" remote="caf" revision="refs/tags/AU_LINUX_ANDROID_JB_2.2.04.01.02.14.080"/>
   <project name="platform/external/tinyalsa" path="external/tinyalsa"/>
   <project name="platform/external/tremolo" path="external/tremolo" remote="caf" revision="refs/tags/AU_LINUX_ANDROID_JB_2.2.04.01.02.14.080"/>
-  <project name="unbootimg" path="external/unbootimg" remote="b2g" revision="v1-train"/>
+  <project name="unbootimg" path="external/unbootimg" remote="b2g" revision="master"/>
   <project name="platform/external/webp" path="external/webp" remote="caf" revision="refs/tags/AU_LINUX_ANDROID_JB_2.2.04.01.02.14.080"/>
   <project name="platform/external/webrtc" path="external/webrtc"/>
   <project name="platform/external/wpa_supplicant" path="external/wpa_supplicant"/>
