@@ -7,15 +7,15 @@
   <remote fetch="git://github.com/CyanogenMod/" name="CM"/>
   <remote fetch="git://android.git.linaro.org/" name="linaro"/>
   <remote name="QRD" fetch="git://codeaurora.org/quic/qrd-android"/>
-  <default remote="caf" revision="ics_strawberry" sync-j="4"/>
+  <default remote="QRD" revision="ics_master_qrd_101" sync-j="4"/>
 
   <!-- Gonk specific things and forks -->
   <project name="platform_build" path="build" remote="gp-b2g" revision="master">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
   <project name="fake-dalvik" path="dalvik" remote="b2g" revision="master"/>
-  <project name="releases/gaia.git" path="gaia" remote="mozillaorg" revision="master" />
-  <project name="releases/gecko.git" path="gecko" remote="mozillaorg" revision="master" />
+  <project name="releases/gaia.git" path="gaia" remote="mozillaorg" revision="master"/>
+  <project name="releases/gecko.git" path="gecko" remote="mozillaorg" revision="master"/>
   <project name="gonk-misc" path="gonk-misc" remote="b2g" revision="master"/>
   <project name="rilproxy" path="rilproxy" remote="b2g" revision="master"/>
   <project name="librecovery" path="librecovery" remote="b2g" revision="master"/>
@@ -25,19 +25,19 @@
   <project name="platform/abi/cpp" path="abi/cpp" />
   <project name="android_bionic" path="bionic" remote="gp-b2g" revision="master"/>
   <project name="platform/bootable/recovery" path="bootable/recovery"/>
-  <project name="platform/development" path="development" remote="QRD" revision="ics_master_qrd_101"/>
-  <project name="device/common" path="device/common" remote="QRD" revision="ics_master_qrd_101"/>
-  <project name="device/sample" path="device/sample" remote="QRD" revision="ics_master_qrd_101"/>
+  <project name="platform/development" path="development"/>
+  <project name="device/common" path="device/common"/>
+  <project name="device/sample" path="device/sample"/>
   <project path="external/apriori" name="platform_external_apriori" remote="b2g" revision="master"/>
   <project name="platform/external/apache-http" path="external/apache-http"/>
-  <project name="platform/external/bluetooth/bluez" path="external/bluetooth/bluez" remote="QRD" revision="ics_master_qrd_101"/>
+  <project name="platform/external/bluetooth/bluez" path="external/bluetooth/bluez"/>
   <project name="platform/external/bluetooth/glib" path="external/bluetooth/glib"/>
-  <project name="platform/external/bluetooth/hcidump" path="external/bluetooth/hcidump" remote="QRD" revision="ics_master_qrd_101"/>
-  <project name="platform/external/bsdiff" path="external/bsdiff" revision="refs/tags/AU_LINUX_ANDROID_JB_2.2.04.01.02.14.080"/>
+  <project name="platform/external/bluetooth/hcidump" path="external/bluetooth/hcidump"/>
+  <project name="platform/external/bsdiff" path="external/bsdiff" remote ="caf" revision="refs/tags/AU_LINUX_ANDROID_JB_2.2.04.01.02.14.080"/>
   <project name="platform/external/bzip2" path="external/bzip2"/>
   <project name="platform/external/dbus" path="external/dbus"/>
   <project name="platform/external/dhcpcd" path="external/dhcpcd"/>
-  <project name="platform/external/dnsmasq" path="external/dnsmasq" revision="refs/tags/AU_LINUX_ANDROID_JB_2.2.04.01.02.14.080"/>
+  <project name="platform/external/dnsmasq" path="external/dnsmasq" remote="caf" revision="refs/tags/AU_LINUX_ANDROID_JB_2.2.04.01.02.14.080"/>
   <project path="external/elfcopy" name="platform_external_elfcopy" remote="b2g" revision="master"/>
   <project path="external/elfutils" name="platform_external_elfutils" remote="b2g" revision="master"/>
   <project name="platform/external/e2fsprogs" path="external/e2fsprogs"/>
@@ -45,17 +45,17 @@
   <project name="platform/external/fdlibm" path="external/fdlibm"/>
   <project name="platform/external/flac" path="external/flac"/>
   <project name="platform/external/freetype" path="external/freetype"/>
-  <project name="platform/external/giflib" path="external/giflib" revision="refs/tags/AU_LINUX_ANDROID_JB_2.2.04.01.02.14.080"/>
+  <project name="platform/external/giflib" path="external/giflib" remote="caf" revision="refs/tags/AU_LINUX_ANDROID_JB_2.2.04.01.02.14.080"/>
   <project name="platform/external/gtest" path="external/gtest" remote="linaro" revision="refs/tags/android-4.2_r1"/>
   <project name="platform/external/harfbuzz" path="external/harfbuzz"/>
   <project name="platform/external/icu4c" path="external/icu4c"/>
   <project name="platform/external/iptables" path="external/iptables"/>
   <project name="platform/external/jhead" path="external/jhead"/>
   <project name="platform/external/jpeg" path="external/jpeg"/>
-  <project name="platform/external/libgsm" path="external/libgsm" revision="refs/tags/AU_LINUX_ANDROID_JB_2.2.04.01.02.14.080"/>
-  <project name="platform/external/liblzf" path="external/liblzf" revision="refs/tags/AU_LINUX_ANDROID_JB_2.2.04.01.02.14.080"/>
+  <project name="platform/external/libgsm" path="external/libgsm" remote="caf" revision="refs/tags/AU_LINUX_ANDROID_JB_2.2.04.01.02.14.080"/>
+  <project name="platform/external/liblzf" path="external/liblzf" remote="caf" revision="refs/tags/AU_LINUX_ANDROID_JB_2.2.04.01.02.14.080"/>
   <project name="platform/external/libnfc-nxp" path="external/libnfc-nxp"/>
-  <project name="platform/external/libnl-headers" path="external/libnl-headers" revision="refs/tags/AU_LINUX_ANDROID_JB_2.2.04.01.02.14.080"/>
+  <project name="platform/external/libnl-headers" path="external/libnl-headers" remote="caf" revision="refs/tags/AU_LINUX_ANDROID_JB_2.2.04.01.02.14.080"/>
   <project name="platform/external/libphonenumber" path="external/libphonenumber" />
   <project name="platform/external/libpng" path="external/libpng"/>
   <project name="platform/external/libvpx" path="external/libvpx"/>
@@ -63,20 +63,20 @@
   <project name="platform/external/mksh" path="external/mksh"/>
   <project name="platform_external_opensans" path="external/opensans" remote="b2g" revision="master"/>
   <project name="platform/external/openssl" path="external/openssl"/>
-  <project name="platform/external/protobuf" path="external/protobuf" revision="refs/tags/AU_LINUX_ANDROID_JB_2.2.04.01.02.14.080"/>
-  <project name="platform/external/safe-iop" path="external/safe-iop" revision="refs/tags/AU_LINUX_ANDROID_JB_2.2.04.01.02.14.080"/>
+  <project name="platform/external/protobuf" path="external/protobuf" remote="caf" revision="refs/tags/AU_LINUX_ANDROID_JB_2.2.04.01.02.14.080"/>
+  <project name="platform/external/safe-iop" path="external/safe-iop" remote="caf" revision="refs/tags/AU_LINUX_ANDROID_JB_2.2.04.01.02.14.080"/>
   <project name="screencap-gonk" path="external/screencap-gonk" remote="b2g" revision="master"/>
   <project name="platform/external/skia" path="external/skia"/>
   <project name="platform/external/sonivox" path="external/sonivox"/>
-  <project name="platform/external/speex" path="external/speex" revision="refs/tags/AU_LINUX_ANDROID_JB_2.2.04.01.02.14.080"/>
+  <project name="platform/external/speex" path="external/speex" remote="caf" revision="refs/tags/AU_LINUX_ANDROID_JB_2.2.04.01.02.14.080"/>
   <project name="platform/external/sqlite" path="external/sqlite"/>
   <project name="platform/external/stlport" path="external/stlport"/>
   <project name="platform/external/strace" path="external/strace"/>
-  <project name="platform/external/tagsoup" path="external/tagsoup" revision="refs/tags/AU_LINUX_ANDROID_JB_2.2.04.01.02.14.080"/>
+  <project name="platform/external/tagsoup" path="external/tagsoup" remote="caf" revision="refs/tags/AU_LINUX_ANDROID_JB_2.2.04.01.02.14.080"/>
   <project name="platform/external/tinyalsa" path="external/tinyalsa"/>
-  <project name="platform/external/tremolo" path="external/tremolo" revision="refs/tags/AU_LINUX_ANDROID_JB_2.2.04.01.02.14.080"/>
+  <project name="platform/external/tremolo" path="external/tremolo" remote="caf" revision="refs/tags/AU_LINUX_ANDROID_JB_2.2.04.01.02.14.080"/>
   <project name="unbootimg" path="external/unbootimg" remote="b2g" revision="master"/>
-  <project name="platform/external/webp" path="external/webp" revision="refs/tags/AU_LINUX_ANDROID_JB_2.2.04.01.02.14.080"/>
+  <project name="platform/external/webp" path="external/webp" remote="caf" revision="refs/tags/AU_LINUX_ANDROID_JB_2.2.04.01.02.14.080"/>
   <project name="platform/external/webrtc" path="external/webrtc"/>
   <project name="platform/external/wpa_supplicant" path="external/wpa_supplicant"/>
   <project name="platform/external/hostap" path="external/hostap"/>
@@ -87,17 +87,17 @@
   <project name="platform/libcore" path="libcore"/>
   <project name="platform/ndk" path="ndk"/>
   <project name="platform/prebuilt" path="prebuilt"/>
-  <project name="platform/system/bluetooth" path="system/bluetooth" remote="QRD" revision="ics_master_qrd_101"/>
-  <project name="platform/system/core" path="system/core" remote="QRD" revision="ics_master_qrd_101"/>
-  <project name="platform/system/extras" path="system/extras" remote="QRD" revision="ics_master_qrd_101"/>
-  <project name="platform/system/media" path="system/media" remote="QRD" revision="ics_master_qrd_101"/>
+  <project name="platform/system/bluetooth" path="system/bluetooth"/>
+  <project name="platform/system/core" path="system/core"/>
+  <project name="platform/system/extras" path="system/extras"/>
+  <project name="platform/system/media" path="system/media"/>
   <project name="platform/system/netd" path="system/netd"/>
   <project name="platform/system/vold" path="system/vold" revision="refs/tags/M8960AAAAANLYA100715A"/>
-  <project name="platform/hardware/qcom/media" path="hardware/qcom/media" remote="QRD" revision="ics_master_qrd_101"/>
-  <project name="platform/hardware/qcom/gps" path="hardware/qcom/gps" revision="refs/tags/M8960AAAAANLYA100705"/>
+  <project name="platform/hardware/qcom/media" path="hardware/qcom/media"/>
+  <project name="platform/hardware/qcom/gps" path="hardware/qcom/gps" remote="caf" revision="refs/tags/M8960AAAAANLYA100705"/>
   <project name="platform/hardware/msm7k" path="hardware/msm7k"/>
-  <project name="platform/vendor/qcom-opensource/omx/mm-core" path="vendor/qcom/opensource/omx/mm-core" remote="QRD" revision="ics_master_qrd_101"/>
-  <project name="device/qcom/common" path="device/qcom/common" remote="QRD" revision="ics_master_qrd_101"/>
+  <project name="platform/vendor/qcom-opensource/omx/mm-core" path="vendor/qcom/opensource/omx/mm-core"/>
+  <project name="device/qcom/common" path="device/qcom/common"/>
   <project name="android_external_busybox" path="external/busybox" remote="CM" revision="cm-10.1"/>
 
   <!-- Keon specific things -->
