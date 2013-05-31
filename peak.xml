@@ -7,6 +7,7 @@
   <remote fetch="git://github.com/CyanogenMod/" name="CM"/>
   <remote fetch="git://android.git.linaro.org/" name="linaro"/>
   <remote name="QRD" fetch="git://codeaurora.org/quic/qrd-android"/>
+  <remote name="apitrace" fetch="git://github.com/apitrace/"/>
   <default remote="QRD" revision="ics_master_qrd_101" sync-j="4"/>
 
   <!-- Gonk specific things and forks -->
@@ -20,6 +21,7 @@
   <project name="rilproxy" path="rilproxy" remote="b2g" revision="master"/>
   <project name="librecovery" path="librecovery" remote="b2g" revision="master"/>
   <project name="moztt" path="external/moztt" remote="b2g" revision="master"/>
+  <project path="external/apitrace" name="apitrace" remote="apitrace" revision="master" />
 
   <!-- Stock Android things -->
   <project name="platform/abi/cpp" path="abi/cpp" remote="caf" revision="ics_strawberry"/>
@@ -36,7 +38,7 @@
   <project name="platform/external/bsdiff" path="external/bsdiff" remote="caf" revision="refs/tags/AU_LINUX_ANDROID_JB_2.2.04.01.02.14.080"/>
   <project name="platform/external/bzip2" path="external/bzip2" remote="caf" revision="ics_strawberry"/>
   <project name="platform/external/dbus" path="external/dbus"/>
-  <project name="platform/external/dhcpcd" path="external/dhcpcd"/>
+  <project name="platform/external/dhcpcd" path="external/dhcpcd" remote="caf" revision="ics_strawberry"/>
   <project name="platform/external/dnsmasq" path="external/dnsmasq" remote="caf" revision="refs/tags/AU_LINUX_ANDROID_JB_2.2.04.01.02.14.080"/>
   <project path="external/elfcopy" name="platform_external_elfcopy" remote="b2g" revision="master"/>
   <project path="external/elfutils" name="platform_external_elfutils" remote="b2g" revision="master"/>
@@ -91,7 +93,7 @@
   <project name="platform/system/core" path="system/core"/>
   <project name="platform/system/extras" path="system/extras"/>
   <project name="platform/system/media" path="system/media"/>
-  <project name="platform/system/netd" path="system/netd"/>
+  <project name="platform/system/netd" path="system/netd" remote="caf" revision="ics_strawberry"/>
   <project name="platform/system/vold" path="system/vold"/>
   <project name="platform/hardware/qcom/media" path="hardware/qcom/media"/>
   <project name="platform/hardware/qcom/gps" path="hardware/qcom/gps" remote="caf" revision="ics_strawberry"/>
