@@ -3,8 +3,7 @@
   <remote fetch="git://github.com/mozilla-b2g/" name="b2g"/>
   <remote fetch="git://github.com/gp-b2g/" name="gp-b2g"/>
   <remote fetch="http://git.mozilla.org/" name="mozillaorg"/>
-  <remote fetch="git://codeaurora.org/" name="caf"/>
-  <remote fetch="git://github.com/basiclines/" name="qhd"/>
+  <remote fetch="git://codeaurora.org/quic/la/" name="caf"/>
   <remote fetch="git://github.com/CyanogenMod/" name="CM"/>
   <remote fetch="git://android.git.linaro.org/" name="linaro"/>
   <remote name="QRD" fetch="git://codeaurora.org/quic/qrd-android"/>
@@ -16,7 +15,7 @@
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
   <project name="fake-dalvik" path="dalvik" remote="b2g" revision="v1.0.1"/>
-  <project name="gaia" path="gaia" remote="qhd" revision="v1.0.1-hidpi-support"/>
+  <project name="gaia" path="gaia" remote="gp-b2g" revision="v1.0.1-hidpi-support-candidate"/>
   <project name="releases/gecko.git" path="gecko" remote="mozillaorg" revision="v1.0.1"/>
   <project name="gonk-misc" path="gonk-misc" remote="b2g" revision="v1-train"/>
   <project name="rilproxy" path="rilproxy" remote="b2g" revision="v1.0.1"/>
