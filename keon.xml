@@ -92,7 +92,7 @@
   <project name="platform/system/extras" path="system/extras"/>
   <project name="platform/system/media" path="system/media"/>
   <project name="platform/system/netd" path="system/netd" remote="caf" revision="ics_strawberry"/>
-  <project name="platform/system/vold" path="system/vold" revision="refs/tags/M8960AAAAANLYA100715A"/>
+  <project name="platform/system/vold" path="system/vold"/>
   <project name="platform/hardware/qcom/media" path="hardware/qcom/media"/>
   <project name="platform/hardware/qcom/gps" path="hardware/qcom/gps" remote="caf" revision="ics_strawberry"/>
   <project name="platform/hardware/msm7k" path="hardware/msm7k"/>
@@ -103,7 +103,7 @@
   <!-- Keon specific things -->
   <project path="device/qcom/msm7627a" name="device_qcom_msm7627a" remote="gp-b2g" revision="master"/>
   <project path="device/geeksphone/keon" name="device-gp-keon" remote="gp-b2g" revision="master"/>
-  <project path="kernel" name="gp-keon-kernel" remote="gp-b2g" revision="master"/>
+  <project path="kernel" name="gp-keon-kernel" remote="gp-b2g" revision="v.1.1.0"/>
   <project path="external/compat-wireless" name="external_compat-wireless" remote="gp-b2g" revision="master"/>
   <project path="frameworks/base" name="frameworks_base" remote="gp-b2g" revision="master"/>
   <project path="hardware/ril" name="hardware_ril" remote="gp-b2g" revision="keon"/>
