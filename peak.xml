@@ -14,14 +14,14 @@
   <project name="platform_build" path="build" remote="gp-b2g" revision="master">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
-  <project name="fake-dalvik" path="dalvik" remote="b2g" revision="master"/>
+  <project name="fake-dalvik" path="dalvik" remote="b2g" revision="v1.4"/>
   <project name="releases/gaia.git" path="gaia" remote="mozillaorg" revision="v1.4"/>
   <project name="releases/gecko.git" path="gecko" remote="mozillaorg" revision="v1.4"/>
-  <project name="gonk-misc" path="gonk-misc" remote="b2g" revision="master"/>
-  <project name="rilproxy" path="rilproxy" remote="b2g" revision="master"/>
-  <project name="librecovery" path="librecovery" remote="b2g" revision="master"/>
-  <project name="moztt" path="external/moztt" remote="b2g" revision="master"/>
-  <project path="external/apitrace" name="apitrace" remote="apitrace" revision="master" />
+  <project name="gonk-misc" path="gonk-misc" remote="b2g" revision="v1.4"/>
+  <project name="rilproxy" path="rilproxy" remote="b2g" revision="v1.4"/>
+  <project name="librecovery" path="librecovery" remote="b2g" revision="v1.4"/>
+  <project name="moztt" path="external/moztt" remote="b2g" revision="v1.4"/>
+  <project path="external/apitrace" name="apitrace" remote="apitrace" revision="v1.4" />
 
   <!-- Stock Android things -->
   <project name="platform/abi/cpp" path="abi/cpp" remote="caf" revision="ics_strawberry"/>
