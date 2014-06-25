@@ -104,7 +104,7 @@
   <!-- Peak specific things -->
   <project path="device/qcom/msm7627a" name="device_qcom_msm7627a" remote="gp-b2g" revision="v1.1.0"/>
   <project path="system/vold" name="system_vold" remote="gp-b2g" revision="v1.1.0"/>
-  <project path="device/geeksphone/peak" name="device-gp-peak" remote="gp-b2g" revision="v1.1.0hd"/>
+  <project path="device/geeksphone/peak" name="device-gp-peak" remote="gp-b2g" revision="v1.4"/>
   <project path="kernel" name="gp-peak-kernel" remote="gp-b2g" revision="master"/>
   <project path="external/compat-wireless" name="external_compat-wireless" remote="gp-b2g" revision="master"/>
   <project path="frameworks/base" name="frameworks_base" remote="gp-b2g" revision="master"/>
