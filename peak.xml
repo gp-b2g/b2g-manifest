@@ -14,13 +14,13 @@
   <project name="platform_build" path="build" remote="gp-b2g" revision="master">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
-  <project name="fake-dalvik" path="dalvik" remote="b2g" revision="v2.0"/>
-  <project name="releases/gaia.git" path="gaia" remote="mozillaorg" revision="v2.0"/>
-  <project name="releases/gecko.git" path="gecko" remote="mozillaorg" revision="v2.0"/>
-  <project name="gonk-misc" path="gonk-misc" remote="b2g" revision="v2.0"/>
-  <project name="rilproxy" path="rilproxy" remote="b2g" revision="v2.0"/>
-  <project name="librecovery" path="librecovery" remote="b2g" revision="v2.0"/>
-  <project name="moztt" path="external/moztt" remote="b2g" revision="v2.0"/>
+  <project name="fake-dalvik" path="dalvik" remote="b2g" revision="v2.1"/>
+  <project name="releases/gaia.git" path="gaia" remote="mozillaorg" revision="v2.1"/>
+  <project name="releases/gecko.git" path="gecko" remote="mozillaorg" revision="v2.1"/>
+  <project name="gonk-misc" path="gonk-misc" remote="b2g" revision="v2.1"/>
+  <project name="rilproxy" path="rilproxy" remote="b2g" revision="v2.1"/>
+  <project name="librecovery" path="librecovery" remote="b2g" revision="v2.1"/>
+  <project name="moztt" path="external/moztt" remote="b2g" revision="v2.1"/>
   <project path="external/apitrace" name="apitrace" remote="apitrace" revision="master" />
 
   <!-- Stock Android things -->
@@ -104,7 +104,7 @@
   <!-- Peak specific things -->
   <project path="device/qcom/msm7627a" name="device_qcom_msm7627a" remote="gp-b2g" revision="v1.1.0"/>
   <project path="system/vold" name="system_vold" remote="gp-b2g" revision="v1.1.0"/>
-  <project path="device/geeksphone/peak" name="device-gp-peak" remote="gp-b2g" revision="v2.0"/>
+  <project path="device/geeksphone/peak" name="device-gp-peak" remote="gp-b2g" revision="v2.1"/>
   <project path="kernel" name="gp-peak-kernel" remote="gp-b2g" revision="master"/>
   <project path="external/compat-wireless" name="external_compat-wireless" remote="gp-b2g" revision="master"/>
   <project path="frameworks/base" name="frameworks_base" remote="gp-b2g" revision="master"/>
