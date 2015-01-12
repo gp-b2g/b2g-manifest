@@ -25,7 +25,7 @@
 
   <!-- Stock Android things -->
   <project name="platform/abi/cpp" path="abi/cpp" />
-  <project name="android_bionic" path="bionic" remote="gp-b2g" revision="master"/>
+  <project path="bionic" name="platform_bionic" remote="b2g" revision="b2g-4.0.4_r2.1" />
   <project name="platform/bootable/recovery" path="bootable/recovery"/>
   <project name="platform/development" path="development"/>
   <project name="device/common" path="device/common"/>
