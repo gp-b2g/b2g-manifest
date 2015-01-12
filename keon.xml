@@ -35,7 +35,7 @@
   <project name="platform/external/bluetooth/bluez" path="external/bluetooth/bluez"/>
   <project name="platform/external/bluetooth/glib" path="external/bluetooth/glib" remote="caf" revision="ics_strawberry"/>
   <project name="platform/external/bluetooth/hcidump" path="external/bluetooth/hcidump"/>
-  <project name="platform/external/bsdiff" path="external/bsdiff" remote ="caf" revision="refs/tags/AU_LINUX_ANDROID_JB_2.2.04.01.02.14.080"/>
+  <project name="platform/external/bsdiff" path="external/bsdiff" remote="caf" revision="refs/tags/AU_LINUX_ANDROID_JB_2.2.04.01.02.14.080"/>
   <project name="platform/external/bzip2" path="external/bzip2" remote="caf" revision="ics_strawberry"/>
   <project name="platform/external/dbus" path="external/dbus"/>
   <project name="platform/external/dhcpcd" path="external/dhcpcd" remote="caf" revision="ics_strawberry"/>
