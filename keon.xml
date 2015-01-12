@@ -112,5 +112,5 @@
   <project path="hardware/qcom/display" name="hardware_qcom_display" remote="gp-b2g" revision="master"/>
   <project path="hardware/libhardware" name="hardware_libhardware" remote="gp-b2g" revision="master"/>
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="gp-b2g" revision="master"/>
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" revision="aosp-new/master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" revision="aosp-new/master" remote="caf" />
 </manifest>
